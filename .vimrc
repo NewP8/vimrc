@@ -1,4 +1,5 @@
 " $MYVIMRC Newentry8
+" plugin lightline
 colorscheme slate
 
 syntax enable
