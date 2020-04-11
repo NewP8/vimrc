@@ -20,6 +20,20 @@ inoremap § <esc>
 nnoremap § :w<cr>
 " inoremap <S-space> <esc>
 
+nnoremap <C-n> :vs .<cr>
+
+nnoremap <leader>p "+p
+nnoremap <leader>y "+y
+vnoremap <leader>y "+y
+
+set expandtab
+set number
+set noswapfile
+set tabstop=4 softtabstop=4 expandtab shiftwidth=4 smarttab
+set autoindent
+set ignorecase 
+set hlsearch " evidenzia parole cercate (usa \\ per togliere evidenziazioni)
+
 set ruler		" show the cursor position all the time
 set showcmd		" display incomplete commands
 set wildmenu		" display completion matches in a status line
