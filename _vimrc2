@@ -1,0 +1,64 @@
+" commento
+colorscheme desert
+
+"set encoding=utf-8
+"set guifont=Lucida_Console:h11:cANSI:qDRAFT
+"syntax enable
+"filetype plugin indent on
+
+"set backspace=indent,eol,start
+"set belloff=all
+
+" vai in modalità insert premendo tab
+nnoremap <Tab> i
+nnoremap <space> :
+" anche con <space> non era male
+nnoremap <C-n> :vs .<cr>
+
+" se serve iunmap § 
+inoremap § <esc>
+nnoremap § :w<cr>
+" inoremap <S-space> <esc>
+
+" la tastiera del portatile ha la / scomoda
+noremap à /
+noremap <F11> `
+noremap! <F11> <C-v>096
+noremap <F12> ~
+noremap! <F12> <C-v>126
+
+nnoremap <leader>p "+p
+nnoremap <leader>y "+y
+nnoremap <leader>d "+d
+"set ruler		" show the cursor position all the time
+"set showcmd		" display incomplete commands
+"set wildmenu		" display completion matches in a status line
+
+"set ttimeout		" time out for key codes
+"set ttimeoutlen=100	" wait up to 100ms after Esc for special key
+
+" Show @@@ in the last line if it is truncated.
+"set display=truncate
+"set scrolloff=1
+"set incsearch
+"set ignorecase
+"set nrformats-=octal
+"set noswf
+
+" For Win32 GUI: remove 't' flag from 'guioptions': no tearoff menu entries.
+"if has('win32')
+"  set guioptions-=t
+"endif
+
+" if has('mouse')
+"   if &term =~ 'xterm'
+"     set mouse=a
+"   else
+"     set mouse=nvi
+"   endif
+" endif
+
+nnoremap <C-z> :echo "C-z disabilitato"<cr>
+
+"packloadall
+"silent! helptags ALL
